@@ -14,6 +14,6 @@ class Test_st:
         allure.attach("这是一个描述","试一下")
         assert True
 
-
-# if __name__ == '__main__':
-#       pytest.main(["-s","test_ws.py","--alluredir" ,"report" ])
+#
+if __name__ == '__main__':
+      pytest.main(["-s","test_ws.py","--alluredir" ,"./report" ])
