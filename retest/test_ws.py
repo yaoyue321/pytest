@@ -16,4 +16,4 @@ class Test_st:
 
 #
 if __name__ == '__main__':
-      pytest.main(["-s","test_ws.py","--alluredir" ,"./report" ])
+      pytest.main(["-s","test_ws.py","--alluredir" ,"../report" ])
